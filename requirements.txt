@@ -13,5 +13,5 @@ langchain-google-genai
 groq
 streamlit
 crawl4ai
-pysqlite3
+pysqlite3-binary
 
