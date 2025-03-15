@@ -15,9 +15,7 @@ import requests
 from xml.etree import ElementTree
 from urllib.parse import urlparse,urljoin 
 
-
 load_dotenv()
-
 
 google_api_key = st.secrets["GOOGLE_API_KEY"]
 groq_api_key = st.secrets["GROQ_API_KEY"]
