@@ -13,4 +13,5 @@ langchain-google-genai
 groq
 streamlit
 crawl4ai
+pysqlite3
 
