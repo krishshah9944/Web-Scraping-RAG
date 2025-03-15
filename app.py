@@ -20,7 +20,7 @@ load_dotenv()
 
 
 google_api_key = st.secrets["GOOGLE_API_KEY"]
-groq_api_key = os.getenv("GROQ_API_KEY")
+groq_api_key = st.secrets["GROQ_API_KEY"]
 
 
 embeddings = GoogleGenerativeAIEmbeddings(
